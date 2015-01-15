@@ -1,0 +1,14 @@
+{
+  "name": "jasmine-example",
+  "version": "1.0.0",
+  "description": "Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the tests work. I also added `src/Add.js` and `spec/my_examples/AddSpec.js`.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.1.1"
+  }
+}
