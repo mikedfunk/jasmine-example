@@ -8,7 +8,8 @@ Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the t
 ## Getting started with Jasmine on another project
 
 1. get jasmine via `npm install -g jasmine` or just with the local project with
-   `npm install --save-dev jasmine`.
+   `npm install --save-dev jasmine`. In that case jasmine will be in
+   `./node_modules/jasmine/bin/jasmine.js`
  * If you don't have a `package.json` you might want to `npm init` before
    installing locally so the jasmine requirement gets saved to your manifest
 2. Are you testing only commonjs modules?
