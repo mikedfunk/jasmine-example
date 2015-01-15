@@ -12,6 +12,7 @@ Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the t
    `./node_modules/jasmine/bin/jasmine.js`
  * If you don't have a `package.json` you might want to `npm init` before
    installing locally so the jasmine requirement gets saved to your manifest
+ * If installing locally you should probably add `node_modules` to `.gitignore`
 2. Are you testing only commonjs modules?
  * `jasmine init` to set up a spec folder and basic config for commonjs testing
  * create a `WhateverSpec.js` in the `spec` folder. You can also organize specs
