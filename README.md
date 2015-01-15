@@ -5,7 +5,7 @@ Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the t
 * `npm install` to install the jasmine cli runner
 * `./node_modules/jasmine/bin/jasmine` to run tests
 
-## How to start adding jasmine tests
+## Getting started with Jasmine on another project
 
 1. get jasmine via `npm install -g jasmine` or just with the local project with `npm install --save-dev jasmine`. 
  * If you don't have a `package.json` you might want to `npm init` before installing locally so the jasmine requirement gets saved to your manifest
