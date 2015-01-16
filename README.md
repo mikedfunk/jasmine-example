@@ -4,6 +4,9 @@ Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the t
 
 * `npm install` to install the jasmine cli runner
 * `./node_modules/jasmine/bin/jasmine` to run tests
+ * [Karma](http://karma-runner.github.io/) is also installed, although when
+   used with browserify I think it's more complicated than just using gulp to
+   run jasmine. `karma start` to use karma.
 
 ## Getting started with Jasmine on another project
 
@@ -33,3 +36,4 @@ Simple example of jasmine. I ran `jasmine examples` and fixed the paths so the t
  * open the `SpecRunner.html` in your browser
  * you can also use [jasmine-html-runner](https://www.npmjs.com/package/jasmine-html-runner) 
    to run it on the command line
+
